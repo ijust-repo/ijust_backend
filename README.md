@@ -1,7 +1,7 @@
 # flask-mvc-framework
 ---------------------
 
-A mini MVC framework using flask based on https://github.com/salimane/flask-mvc.git
+A mini MVC framework using flask based on [salimane/flask-mvc](https://github.com/salimane/flask-mvc)
 
 
 
@@ -9,6 +9,7 @@ A mini MVC framework using flask based on https://github.com/salimane/flask-mvc.
 >* Support different API versions for controllers and schemas. 
 >* Very fast json validation using `good`.
 >* Run and install server in virtual environment automatically.
+>* Restful API documentation using [Flassger](https://github.com/rochacbruno/flasgger)
 
 
 ### Installation:
@@ -19,4 +20,9 @@ A mini MVC framework using flask based on https://github.com/salimane/flask-mvc.
 ### Usage:
 
     python script.py -r
+
+
+### Apidoc url:
+
+	/apidocs/index.html
 
